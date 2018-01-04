@@ -1,0 +1,89 @@
+<div id="about_page" class="page">
+  <script src="script/about.js"></script>
+    <div class="page-header">
+        <h2 class="center"><span class="pad emphasis">About</span>Get To Know Us</h2>
+    </div>
+    <!--Advisors-->
+    <div class="about_title">
+      Advisors
+    </div>
+    <div class="tab">
+      <button class="advisor_btn" onclick="openOfficer(event,'advisor','ACM')">ACM Advisor</button>
+      <button class="advisor_btn" onclick="openOfficer(event,'advisor','SHSU')">Faculty Advisor</button>
+    </div>
+    <div id="advisor" class="tabcontent">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="row">
+            <img id="advisor_image" class="col-xs-8" src="image/acm_advisor.jpg" alt="acm advisor">
+
+          </div>
+          <div class="row">
+            <h4 id="advisor_name" class="col-xs-8">Name</h4>
+          </div>
+          <div class="row">
+            <span id="advisor_description" class="col-xs-8">description</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--Officcers-->
+    <div class="about_title">
+      Officers
+    </div>
+    <div class="tab">
+      <button class="officer_btn"  onclick="openOfficer(event,'officer','president')">President</button>
+      <button class="officer_btn"  onclick="openOfficer(event,'officer','vicepresident')">Vicepresident</button>
+      <button class="officer_btn" onclick="openOfficer(event,'officer','treasurer')">Treasurer</button>
+      <button class="officer_btn" onclick="openOfficer(event,'officer','secretary')">Secretary</button>
+    </div>
+
+    <div id="officer" class="tabcontent">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="row">
+            <img id="officer_image" class="col-xs-8" src="image/acm_advisor.jpg" alt="acm advisor">
+
+          </div>
+          <div class="row">
+            <h4 id="officer_name" class="col-xs-8">Name</h4>
+          </div>
+          <div class="row">
+            <span id="officer_description" class="col-xs-8">description</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!---Committee Chairman-->
+    <div class="about_title">
+      Committee Chairman
+    </div>
+    <div class="tab">
+      <button class="chairman_btn" onclick="openOfficer(event,'chairman','relations')">Media Relations</button>
+      <button class="chairman_btn" onclick="openOfficer(event,'chairman','budget')">Budget</button>
+      <button class="chairman_btn" onclick="openOfficer(event,'chairman','events')">Events and Scholastics</button>
+      <button class="chairman_btn" onclick="openOfficer(event,'chairman','executive')">Executive</button>
+    </div>
+
+    <div id="chairman" class="tabcontent">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="row">
+            <img id="chairman_image" class="col-xs-8" src="image/acm_advisor.jpg" alt="acm advisor">
+
+          </div>
+          <div class="row">
+            <h4 id="chairman_name" class="col-xs-8">Name</h4>
+          </div>
+          <div class="row">
+            <span id="chairman_description" class="col-xs-8">description</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>

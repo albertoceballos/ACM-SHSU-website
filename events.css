@@ -1,0 +1,26 @@
+.Events-list{
+  list-style: none;
+}
+
+.News-list{
+  list-style:none;
+}
+
+.month{
+  text-align: center;
+  background: blue;
+  width: 100%;
+}
+
+.year, .month_text{
+  color:white;
+}
+
+.day_text{
+  color:#777;
+}
+
+.day{
+  background: #eee;
+  text-align: center;
+}

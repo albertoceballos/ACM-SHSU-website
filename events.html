@@ -1,0 +1,46 @@
+<div id="events_page" class="page">
+  <script src="script/events.js">
+
+  </script>
+    <div class="page-header">
+        <h2 class="center"><span class="pad emphasis">Events</span>We Like To Stay Busy</h2>
+    </div>
+    <div class="col-xs-offset-5 col-xs-12">
+      <div class="btn-group center" role="group" aria-label="Basic example">
+        <button type="button" id="social" class="btn btn-default">Social</button>
+        <button type="button" id="scholastics" class="btn btn-default">Scholastics</button>
+        <button type="button" id="conferences" class="btn btn-default">Conferences</button>
+      </div>
+    </div>
+    <br>
+      <div class="container">
+        <ul class="Events-list">
+          <li class="Events-list-item" id="template" style="display:none;">
+            <div class="row">
+              <h3>
+                <span id="image" class="col-xs-2">
+                <div class="month">
+                  <div class="year">
+                    {year}
+                  </div>
+                  <div class="month_text">
+                    {month}
+                  </div>
+                </div>
+                <div class="day">
+                  <div class="day_text">
+                    {day}
+                  </div>
+                </div>
+              </span>
+              <span id="title" class="col-xs-10"><strong>{Title}</strong></span>
+              <span id="location" class="col-xs-10"><h4>{Location}</h4></span>
+            </h3>
+            </div>
+            <div class="row">
+              <h4 id="description" class="col-xs-offset-2 col-xs-10"><span>{Description}</span></h4>
+            </div>
+          </li>
+        </ul>
+      </div>
+</div>

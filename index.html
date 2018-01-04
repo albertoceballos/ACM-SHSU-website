@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ACM@SHSU</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- JQUERY -->
+        <script src="script/jquery-3.2.1.min.js"></script>
+
+        <!-- BOOTSTRAP
+        <script src="script/bootstrap.min.js" ></script>
+        <link href="style/bootstrap.min.css" rel="stylesheet">
+        -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- APP STYLES -->
+        <link href="style/app.css" rel="stylesheet">
+        <link href="style/splash_screen.css" rel="stylesheet">
+        <link href="style/banner.css" rel="stylesheet">
+        <link href="style/projects.css" rel="stylesheet">
+        <link href="style/events.css" rel="stylesheet">
+        <link rel="stylesheet" href="style/footer.css">
+        <link rel="stylesheet" href="style/about.css">
+        <link rel="stylesheet" href="style/login.css">
+
+        <!-- APP SCRIPTS -->
+        <script src="script/app.js"></script>
+
+
+    </head>
+    <body onload="App.init();" >
+        <div data-include="view/splash_screen.html"></div>
+        <div class="row" data-include="view/banner.html" data-hidden="true"></div>
+        <div class="container" data-hidden="true">
+            <div class="col-xs-12">
+                <div class="row" data-include="view/home.html"></div>
+                <div class="row" data-include="view/projects.html"></div>
+                <div class="row" data-include="view/events.html"></div>
+                <div class="row" data-include="view/news.html"></div>
+                <div class="row" data-include="view/about.html"></div>
+                <div class="row" data-include="view/login.html"></div>
+            </div>
+        </div>
+    </body>
+    <footer>
+      <div class="row" data-include="view/footer.html">
+      </div>
+    </footer>
+</html>

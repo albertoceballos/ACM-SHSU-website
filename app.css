@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2017, 5:09:02 PM
+    Author     : Cory Buck cbuck@verilex.software
+*/
+
+html,body{
+    height:100%;
+    widht:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.page{
+    display:none;
+}
+
+.page-active{
+    display:block;
+}
+
+.page-header{
+    
+}
+
+.page-body{
+    overflow-y:auto;
+}
+
+.center{
+    text-align:center;
+}
+
+.emphasis{
+    color:orange;    
+}
+
+.highlight{
+    background-color:orange;
+}
+
+.pad{
+    padding:15px;
+}
+
+.rounded{
+    border-radius:7px;
+}
+
+.space-bottom{
+    margin-bottom:25px;
+}
+
+.text-heavy{
+    font-size:1.1em;
+    font-weight:bold;
+}
